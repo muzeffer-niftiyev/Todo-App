@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="shortcut icon" href="img/todo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="app_header">
+            <h1>Todo List App</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <form class="add_todo">
+                <input type="text" class="add_todo_text" spellcheck="false" placeholder="To Do...">
+                <input type="submit" class="add_todo_submit" spellcheck="false" value="&plus;">
+            </form>
+        </main>
+
+        <section class="todos">
+            <h4 class="header hidden">Todos</h4>
+
+            <div class="center hidden">
+                <!-- added todos -->
+
+                <!-- <div class="todos_container"> -->
+
+                    <!-- <div class="todo">
+                        <div class="dot">
+
+                        </div>
+                        <div class="todo_text">
+                            <input type="text" value="TODO" readonly>
+                            <p class="date">Today</p>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+
+            <div class="done_todos hidden">
+                <h4>Done Todos</h4>
+
+                <div class="done_todos_container">
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
