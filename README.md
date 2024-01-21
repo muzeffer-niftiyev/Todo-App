@@ -2,11 +2,11 @@
 
 ---
 
-## Description
+## 📝 Description
 
 Todo List App that can help you to stay organized by adding short todos, tasks or notes.
 
-#### Technologies
+#### 💻 Technologies
 
 - HTML
 - CSS
@@ -14,7 +14,7 @@ Todo List App that can help you to stay organized by adding short todos, tasks o
 
 ---
 
-## Features
+## ✨ Features
 
 - Lets you add new todo.
 - Lets you to mark the todo as done or not done.
@@ -24,13 +24,13 @@ Todo List App that can help you to stay organized by adding short todos, tasks o
 
 ---
 
-## Demo
+## 🚀 Demo
 
-[Todo List App](https://todo-app-azure-pi.vercel.app)
+[🔗 Todo List App](https://todo-app-azure-pi.vercel.app)
 
 ---
 
-## Installation
+## 🛠 Installation
 
 1. Clone the repository
 
