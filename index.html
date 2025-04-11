@@ -11,29 +11,30 @@
 </head>
 
 <body>
-    <header>
-        <div class="app_header">
-            <h1>Todo List App</h1>
-        </div>
-    </header>
-
     <div class="container">
-        <main>
-            <form class="add_todo">
-                <input type="text" class="add_todo_text" spellcheck="false" placeholder="To Do...">
-                <input type="submit" class="add_todo_submit" spellcheck="false" value="&plus;">
-            </form>
-        </main>
-
-        <section class="todos">
-            <h4 class="header hidden">Todos</h4>
-            <div class="center hidden"></div>
-
-            <div class="done_todos hidden">
-                <h4>Done Todos</h4>
-                <div class="done_todos_container"></div>
+        <div class="cont-top"></div>
+        <header>
+            <div class="app_header">
+                <h1>To-Do List</h1>
             </div>
-        </section>
+        </header>
+
+        <main>
+            <div class="sort">
+                <button><img src="./img/sort-1.svg" alt="sort"></button>
+            </div>
+            <div class="input">
+                <input type="text" spellcheck="false" placeholder="New todo...">
+
+            </div>
+
+            <div class="todos"></div>
+
+            <div class="add">
+                <button>&plus;</button>
+                <span>Add</span>
+            </div>
+        </main>
     </div>
 </body>
 
